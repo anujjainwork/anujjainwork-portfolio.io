@@ -4037,6 +4037,12 @@ input, select, textarea {
 				-ms-transform: translateX(0);
 				transform: translateX(0);
 			}
+			#titleBar {
+				opacity: 0;              /* Make it invisible */
+				pointer-events: none;    /* Prevent clicks */
+				transition: opacity 0.3s ease; /* Smooth transition */
+			}
+			
 
 		/* Footer */
 
